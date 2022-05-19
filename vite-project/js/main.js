@@ -13,7 +13,7 @@ function sectionCreate(array) {
         `
         <section class="Front-Page">
         <div class="each-card">
-        <h2 class="display-name">${section.name}</h2>
+        <header class="display-name text-5xl text-left">${section.name}</header>
         <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
         </div>
         </section>`
@@ -25,7 +25,7 @@ function sectionCreate(array) {
         `
         <section class="Eiji-Tsuburaya">
         <div class="each-card">
-        <h2 class="display-name">${section.name}</h2>
+        <h2 class="display-name text-3xl text-center">${section.name}</h2>
         <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
         <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
         </div>
@@ -38,7 +38,7 @@ function sectionCreate(array) {
         `
         <section class="section-cards">
         <div class="each-card">
-        <h2 class="display-name">${section.name}</h2>
+        <h2 class="display-name text-3xl text-center">${section.name}</h2>
         <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
         </div>
         </section>`
@@ -50,7 +50,7 @@ function sectionCreate(array) {
         `
         <section class="section-cards">
         <div class="each-card">
-        <h2 class="display-name">${section.name}</h2>
+        <h2 class="display-name text-3xl text-center">${section.name}</h2>
         <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
         <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
         </div>
@@ -63,7 +63,7 @@ function sectionCreate(array) {
         `
         <section class="section-cards">
         <div class="each-card">
-        <h2 class="display-name">${section.name}</h2>
+        <h2 class="display-name text-3xl text-center">${section.name}</h2>
         <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
         <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
         <img class="display-img" src="${section.pic3}" alt="${section.alt3}"/>
