@@ -26,8 +26,8 @@ function sectionCreate(array) {
         <section class="Eiji-Tsuburaya">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
+        <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img justify-items-end" src="${section.pic2}" alt="${section.alt2}"/>
         </div>
         </section>`
       );
@@ -51,7 +51,7 @@ function sectionCreate(array) {
         <section class="section-cards">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
         <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
         </div>
         </section>`
@@ -64,7 +64,7 @@ function sectionCreate(array) {
         <section class="section-cards">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-imgjustify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
         <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
         <img class="display-img" src="${section.pic3}" alt="${section.alt3}"/>
         </div>
