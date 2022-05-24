@@ -1,6 +1,35 @@
-.justify-items-start {
-  justify-items: start;
+.Front-Page {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
-.justify-items-end {
-  justify-items: end;
+.Eiji-Tsuburaya {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Iconic-Series {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Hideaki-Anno {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Latest-Projects {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }

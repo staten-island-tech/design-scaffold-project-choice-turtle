@@ -1,6 +1,6 @@
 import "../styles/style.css";
-import "../dist/output.css";
 import "../styles/variables.css";
+import "../dist/output.css";
 // import { sections } from "../js/arrays.js";
 import { sections } from "../js/arrays";
 console.log(sections);
@@ -14,7 +14,7 @@ function sectionCreate(array) {
         <section class="Front-Page">
         <div class="each-card">
         <header class="display-name text-5xl text-left">${section.name}</header>
-        <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img1" src="${section.pic1}" alt="${section.alt1}"/>
         </div>
         </section>`
       );
@@ -26,8 +26,8 @@ function sectionCreate(array) {
         <section class="Eiji-Tsuburaya">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img justify-items-end" src="${section.pic2}" alt="${section.alt2}"/>
+        <img class="display-img2" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img3" src="${section.pic2}" alt="${section.alt2}"/>
         </div>
         </section>`
       );
@@ -39,7 +39,7 @@ function sectionCreate(array) {
         <section class="section-cards">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img4" src="${section.pic1}" alt="${section.alt1}"/>
         </div>
         </section>`
       );
@@ -51,8 +51,8 @@ function sectionCreate(array) {
         <section class="section-cards">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
+        <img class="display-img5" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img6" src="${section.pic2}" alt="${section.alt2}"/>
         </div>
         </section>`
       );
@@ -64,9 +64,9 @@ function sectionCreate(array) {
         <section class="section-cards">
         <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-imgjustify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img" src="${section.pic2}" alt="${section.alt2}"/>
-        <img class="display-img" src="${section.pic3}" alt="${section.alt3}"/>
+        <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img7" src="${section.pic2}" alt="${section.alt2}"/>
+        <img class="display-img8" src="${section.pic3}" alt="${section.alt3}"/>
         </div>
         </section>`
       );
