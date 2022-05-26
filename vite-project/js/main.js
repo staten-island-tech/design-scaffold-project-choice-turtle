@@ -1,7 +1,7 @@
+
 import "../styles/style.css";
 import "../styles/variables.css";
 import "../dist/output.css";
-// import { sections } from "../js/arrays.js";
 import { sections } from "../js/arrays";
 console.log(sections);
 function sectionCreate(array) {
@@ -13,8 +13,7 @@ function sectionCreate(array) {
         `
         <section class="Front-Page">
         <div class="each-card">
-        <header class="display-name text-5xl text-left">${section.name}</header>
-        <img class="display-img1" src="${section.pic1}" alt="${section.alt1}"/>
+        <header class="display-name text-6xl text-center">${section.name}</header>
         </div>
         </section>`
       );

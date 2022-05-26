@@ -1,9 +1,15 @@
 .Front-Page {
-  margin: 1.7rem;
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  background-image: url("/ultraman-america.webp");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  color: #1167b1;
+  background-color: #ffffff;
+  border-width: 1rem;
+  border-color: #0b182f;
+  padding: 0.75rem;
 }
 .Eiji-Tsuburaya {
   margin: 1.7rem;
@@ -12,6 +18,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .Iconic-Series {
   margin: 1.7rem;
   justify-content: center;
