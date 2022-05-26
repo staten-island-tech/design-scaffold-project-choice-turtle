@@ -1,3 +1,12 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 .Front-Page {
   background-image: url("/ultraman-america.webp");
   height: 100vh;
@@ -7,36 +16,48 @@
 header {
   color: #1167b1;
   background-color: #ffffff;
-  border-width: 1rem;
+  border-width: 1.6rem;
   border-color: #0b182f;
-  padding: 0.75rem;
+  padding: 1.2rem;
 }
-.Eiji-Tsuburaya {
+.each-card2 {
+  margin: 1.7rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-img1 {
+  width: 37.1rem;
+  height: 96.2rem;
+}
+.display-img2 {
+  width: 48rem;
+  height: 60rem;
+}
+.each-card3 {
   margin: 1.7rem;
   justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
-
-.Iconic-Series {
+.each-card4 {
   margin: 1.7rem;
   justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
-.Hideaki-Anno {
+.each-card5 {
   margin: 1.7rem;
   justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
-.Latest-Projects {
-  margin: 1.7rem;
-  justify-content: center;
+h2 {
+  margin: 1.25rem;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  height: 3.5rem;
 }

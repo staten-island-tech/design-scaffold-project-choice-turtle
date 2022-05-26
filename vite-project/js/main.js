@@ -1,4 +1,3 @@
-
 import "../styles/style.css";
 import "../styles/variables.css";
 import "../dist/output.css";
@@ -12,9 +11,7 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="Front-Page">
-        <div class="each-card">
         <header class="display-name text-6xl text-center">${section.name}</header>
-        </div>
         </section>`
       );
     } else if (section.id == 2) {
@@ -23,11 +20,12 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="Eiji-Tsuburaya">
-        <div class="each-card">
-        <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img2" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img3" src="${section.pic2}" alt="${section.alt2}"/>
-        </div>
+          <h2 class="display-name text-3xl text-center">${section.name}</h2>
+          <div class="each-card2">
+            <img class="display-img1" src="${section.pic1}" alt="${section.alt1}"/>
+            <p class="text-2xl p1">something</p>
+            <img class="display-img2" src="${section.pic2}" alt="${section.alt2}"/>
+          </div>
         </section>`
       );
     } else if (section.id == 3) {
@@ -36,10 +34,11 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="section-cards">
-        <div class="each-card">
-        <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img4" src="${section.pic1}" alt="${section.alt1}"/>
-        </div>
+          <h2 class="display-name text-3xl text-center">${section.name}</h2>
+          <div class="each-card3">
+            <p class="text-2xl p1">something</p>
+            <img class="display-img3" src="${section.pic1}" alt="${section.alt1}"/>
+          </div>
         </section>`
       );
     } else if (section.id == 4) {
@@ -48,11 +47,12 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="section-cards">
-        <div class="each-card">
-        <h2 class="display-name text-3xl text-center">${section.name}</h2>
-        <img class="display-img5" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img6" src="${section.pic2}" alt="${section.alt2}"/>
-        </div>
+          <h2 class="display-name text-3xl text-center">${section.name}</h2>
+          <div class="each-card4">
+            <img class="display-img4" src="${section.pic1}" alt="${section.alt1}"/>
+            <p class="text-2xl p1">something</p>
+            <img class="display-img5" src="${section.pic2}" alt="${section.alt2}"/>
+          </div>
         </section>`
       );
     } else if (section.id == 5) {
@@ -61,11 +61,12 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="section-cards">
-        <div class="each-card">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
+        <div class="each-card5">
         <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
-        <img class="display-img7" src="${section.pic2}" alt="${section.alt2}"/>
-        <img class="display-img8" src="${section.pic3}" alt="${section.alt3}"/>
+        <p class="text-2xl p1">something</p>
+        <img class="display-img6" src="${section.pic2}" alt="${section.alt2}"/>
+        <img class="display-img7" src="${section.pic3}" alt="${section.alt3}"/>
         </div>
         </section>`
       );
