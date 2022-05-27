@@ -63,10 +63,10 @@ function sectionCreate(array) {
         <section class="section-cards">
         <h2 class="display-name text-3xl text-center">${section.name}</h2>
         <div class="each-card5">
-        <img class="display-img justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
+        <img class="display-img6 justify-items-start" src="${section.pic1}" alt="${section.alt1}"/>
         <p class="text-2xl p1">something</p>
-        <img class="display-img6" src="${section.pic2}" alt="${section.alt2}"/>
-        <img class="display-img7" src="${section.pic3}" alt="${section.alt3}"/>
+        <img class="display-img7" src="${section.pic2}" alt="${section.alt2}"/>
+        <img class="display-img8" src="${section.pic3}" alt="${section.alt3}"/>
         </div>
         </section>`
       );
