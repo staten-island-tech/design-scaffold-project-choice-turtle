@@ -13,6 +13,7 @@ body,
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 header {
   color: #1167b1;
   background-color: #ffffff;
@@ -20,6 +21,7 @@ header {
   border-color: #0b182f;
   padding: 1.2rem;
 }
+
 .each-card2 {
   margin: 1.7rem;
   text-align: center;
@@ -27,25 +29,30 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+
 .display-img1 {
   width: 37.1rem;
   height: 96.2rem;
 }
+
 .display-img2 {
   width: 48rem;
   height: 60rem;
 }
+
 .each-card3 {
   margin: 1.7rem;
-  justify-content: center;
+  justify-content: right;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
+
 .display-img3 {
   width: 48rem;
   height: 72.1rem;
 }
+
 .each-card4 {
   margin: 1.7rem;
   justify-content: center;
@@ -53,14 +60,17 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+
 .display-img4 {
   width: 50rem;
   height: 75rem;
 }
+
 .display-img5 {
   width: 100rem;
   height: 56.25rem;
 }
+
 .each-card5 {
   margin: 1.7rem;
   justify-content: center;
@@ -73,14 +83,17 @@ header {
   width: 46.725rem;
   height: 67.28825rem;
 }
+
 .display-img7 {
   width: 80rem;
   height: 113.12rem;
 }
+
 .display-img8 {
   width: 46.725rem;
   height: 66.08675rem;
 }
+
 h2 {
   margin: 1.25rem;
   text-align: center;
