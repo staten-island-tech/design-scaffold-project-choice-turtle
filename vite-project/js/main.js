@@ -11,7 +11,8 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="Front-Page">
-        <header class="display-name text-6xl text-center">${section.name}</header>
+        <header class="display-name text-4xl text-center">${section.name}</header>
+        <button class="btn" id="Warm-Drinks">Warm Drinks</button>
         </section>`
       );
     } else if (section.id == 2) {
