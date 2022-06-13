@@ -1,0 +1,194 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --White: #ffffff;
+  --Black: #000000;
+  --BravesNavy: #13274f;
+  --Red: #df0109;
+  --Silver: #c0c0c0;
+}
+.dark {
+  --primary: var(--BravesNavy);
+  --secondary: var(--Silver);
+  --teritary: var(--White);
+}
+.light {
+  --primary: var(--Red);
+  --secondary: var(--White);
+}
+body {
+  background-color: var(--primary);
+}
+.Front-Page {
+  background-image: url("https://res.cloudinary.com/turtlerules/image/upload/c_scale,q_auto:best,w_1400/v1655088884/Ultraman%20Photos/ultraman-america_hg8lha.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  background-color: var(--primary);
+  width: 100%;
+  height: 7%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 1rem;
+  border-color: var(--secondary);
+}
+h1 {
+  margin-left: 2rem;
+  color: var(--secondary);
+  border-width: 1rem;
+  font-size: 5rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  border-color: var(--secondary);
+}
+h2 {
+  text-align: center;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+  background-color: var(--primary);
+  font-size: 4rem;
+  color: var(--secondary);
+}
+p {
+  background-color: var(--primary);
+  font-size: 2rem;
+  color: var(--secondary);
+}
+
+.buttons {
+  background-color: var(--primary);
+  height: 7%;
+}
+.btn {
+  font-size: 2rem;
+  text-align: right;
+  color: var(--secondary);
+  background-color: var(--primary);
+  padding: 2rem;
+  border-color: var(--secondary);
+}
+
+.Eiji-Tsuburaya {
+  margin-top: 7%;
+  background-image: url("https://res.cloudinary.com/turtlerules/image/upload/v1655088888/Ultraman%20Photos/ultraman-rise_yjvvca.gif");
+  /* Bgimage should fade after the beginning animation ~3secs*/
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 1.25rem;
+  border-color: var(--primary);
+}
+.each-card2 {
+  margin: 1.7rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-img1 {
+  width: 37.1rem;
+  height: 96.2rem;
+}
+.p1 {
+  width: 50%;
+  height: 90rem;
+}
+
+.display-img2 {
+  width: 48rem;
+  height: 60rem;
+}
+.Iconic-Series {
+  margin-top: 7%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 1.25rem;
+  border-color: var(--primary);
+}
+.each-card3 {
+  margin: 1.7rem;
+  justify-content: right;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-img3 {
+  width: 48rem;
+  height: 72.1rem;
+  /* want this image to slide from the left to the right */
+}
+.Hideaki-Anno {
+  margin-top: 7%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 1.25rem;
+  border-color: var(--primary);
+}
+.each-card4 {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-img4 {
+  width: 50rem;
+  height: 75rem;
+}
+
+.display-img5 {
+  width: 100rem;
+  height: 56.25rem;
+}
+.Latest-Projects {
+  margin-top: 7%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 1.25rem;
+  border-color: var(--primary);
+}
+.each-card5 {
+  margin: 1.7rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-img6 {
+  width: 46.7rem;
+  height: 66.1rem;
+}
+
+.display-img7 {
+  width: 80rem;
+  height: 113.1rem;
+}
+
+.display-img8 {
+  width: 46.7rem;
+  height: 66.1rem;
+}

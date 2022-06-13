@@ -1,0 +1,46 @@
+const sections = [
+  {
+    name: "Tsuburaya Productions",
+    pic1: "https://res.cloudinary.com/turtlerules/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1655088884/Ultraman%20Photos/ultraman-america_hg8lha.webp",
+    alt1: "Ultra brothers, Father of Ultra, and Mother of Ultra posing together",
+    paragraph: "somethingsomething",
+    id: 1,
+  },
+  {
+    name: "What is Tsuburaya Productions?",
+    pic1: "https://res.cloudinary.com/turtlerules/image/upload/v1655088883/Ultraman%20Photos/Ultraman_kwhxui.webp",
+    pic2: "https://res.cloudinary.com/turtlerules/image/upload/c_scale,q_auto:best,w_480/v1655088858/Ultraman%20Photos/Eiji_Tsuburaya_mshkjy.webp",
+    alt1: "Ultraman Posing",
+    alt2: "Eiji Tsuburaya",
+    paragraph: "somethingsomething",
+    id: 2,
+  },
+  {
+    name: "Iconic Series made by them",
+    pic1: "https://res.cloudinary.com/turtlerules/image/upload/v1655088883/Ultraman%20Photos/Ultraman_Tiga_qbiwx1.webp",
+    alt1: "Ultraman Tiga staring backwards menacingly",
+    paragraph: "somethingsomething",
+    id: 3,
+  },
+  {
+    name: "Works that are inspired by them",
+    pic1: "https://res.cloudinary.com/turtlerules/image/upload/c_scale,w_500/v1655088885/Ultraman%20Photos/Hideaki_Anno_rpwz45.jpg",
+    pic2: "https://res.cloudinary.com/turtlerules/image/upload/c_scale,w_1000/v1655088862/Ultraman%20Photos/Evangelion_apstgz.jpg",
+    alt1: "Hideaki Anno",
+    alt2: "Evangelion picture",
+    paragraph: "somethingsomething",
+    id: 4,
+  },
+  {
+    name: "Latest Works, Projects, and Series",
+    pic1: "https://res.cloudinary.com/turtlerules/image/upload/c_scale,w_467/v1655088886/Ultraman%20Photos/Ultraman_Decker_poster_mpxzmb.webp",
+    pic2: "https://res.cloudinary.com/turtlerules/image/upload/c_scale,w_800/v1655088884/Ultraman%20Photos/Shin_Ultraman_Poster_dxujtt.jpg",
+    pic3: "https://res.cloudinary.com/turtlerules/image/upload/c_scale,w_467/v1655088887/Ultraman%20Photos/UGFTDCPoster2_d3evza.webp",
+    alt1: "Ultraman Decker Poster",
+    alt2: "Shin Ultraman Poster",
+    alt3: "Ultra Galaxy Fight: The Destined Crossroad Poster",
+    paragraph: "somethingsomething",
+    id: 5,
+  },
+];
+export { sections };
