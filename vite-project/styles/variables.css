@@ -131,10 +131,16 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
-
+.p2 {
+  margin-right: 5rem;
+  width: 60%;
+  text-align: center;
+}
 .display-img3 {
   width: 48rem;
   height: 72.1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   /* want this image to slide from the left to the right */
 }
 .Hideaki-Anno {

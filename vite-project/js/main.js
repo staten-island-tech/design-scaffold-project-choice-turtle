@@ -90,3 +90,4 @@ document.getElementById("btn6").addEventListener("click", function () {
     document.body.classList.remove("dark");
   }
 });
+gsap.to(".each-card3", { duration: 0.1, x: -1900 });
