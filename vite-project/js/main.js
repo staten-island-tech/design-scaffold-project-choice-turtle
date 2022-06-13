@@ -1,5 +1,6 @@
 import "../styles/style.css";
 import "../styles/variables.css";
+import { gsap } from "gsap";
 // import "../dist/output.css";
 import { sections } from "../js/arrays";
 function sectionCreate(array) {
@@ -67,12 +68,12 @@ function sectionCreate(array) {
         <section class="section-cards">
         <h2 class="display-name">${section.name}</h2>
         <div class="each-card5">
-        <img class="display-img7" src="${section.pic2}" alt="${section.alt2}"/> 
-        <section class="bottom-part">
-          <img class="display-img6" src="${section.pic3}" alt="${section.alt3}"/>
-          <p class="p4">something</p>
-          <img class="display-img8" src="${section.pic1}" alt="${section.alt1}"/>
-        </section>
+        <div class="images3">
+        <img class="display-img6" src="${section.pic3}" alt="${section.alt3}"/>
+        <img class="display-img7" src="${section.pic2}" alt="${section.alt2}"/>  
+        <img class="display-img8" src="${section.pic1}" alt="${section.alt1}"/>
+        </div>  
+        <p class="p4">something</p>
         </div>
         </section>`
       );
