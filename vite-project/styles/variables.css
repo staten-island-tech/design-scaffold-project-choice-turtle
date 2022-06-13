@@ -152,13 +152,16 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
-
+.p3 {
+  width: 60%;
+}
 .display-img4 {
   width: 50rem;
   height: 75rem;
 }
 
 .display-img5 {
+  margin-top: 5rem;
   width: 100rem;
   height: 56.25rem;
 }
@@ -177,18 +180,23 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
-
+.images3 {
+  width: 100%;
+}
 .display-img6 {
   width: 46.7rem;
   height: 66.1rem;
+  align-self: flex-end;
 }
 
 .display-img7 {
   width: 80rem;
   height: 113.1rem;
+  align-self: flex-start;
 }
 
 .display-img8 {
   width: 46.7rem;
   height: 66.1rem;
+  align-self: flex-end;
 }
