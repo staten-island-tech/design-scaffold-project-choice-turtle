@@ -1,8 +1,27 @@
 import "../styles/style.css";
 import "../styles/variables.css";
-import { gsap } from "gsap";
-// import "../dist/output.css";
 import { sections } from "../js/arrays";
+import { gsap } from "gsap";
+import { Flip } from "gsap/Flip";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Observer } from "gsap/Observer";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { Draggable } from "gsap/Draggable";
+import { EaselPlugin } from "gsap/EaselPlugin";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import { PixiPlugin } from "gsap/PixiPlugin";
+import { TextPlugin } from "gsap/TextPlugin";
+gsap.registerPlugin(
+  Flip,
+  ScrollTrigger,
+  Observer,
+  ScrollToPlugin,
+  Draggable,
+  EaselPlugin,
+  MotionPathPlugin,
+  PixiPlugin,
+  TextPlugin
+);
 function sectionCreate(array) {
   array.forEach((section) => {
     if (section.id == 1) {
@@ -43,7 +62,7 @@ function sectionCreate(array) {
         <section class="section-cards">
           <h2 class="display-name  ">${section.name}</h2>
           <div class="each-card3">
-            <p class=" p2">something</p>
+            <p class="p2">something</p>
             <img class="display-img3" src="${section.pic1}" alt="${section.alt1}"/>
           </div>
         </section>`
@@ -81,13 +100,10 @@ function sectionCreate(array) {
   });
 }
 sectionCreate(sections);
-document.getElementById("btn6").addEventListener("click", function () {
-  if (document.body.classList.contains("light")) {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
-  } else {
-    document.body.classList.add("light");
-    document.body.classList.remove("dark");
-  }
+gsap.to(".display-img3", {
+  scrollTrigger: {
+    trigger: ".display-img3",
+  },
+  x: -400,
+  rotation: 360,
 });
-gsap.to(".each-card3", { duration: 0.1, x: -1900 });

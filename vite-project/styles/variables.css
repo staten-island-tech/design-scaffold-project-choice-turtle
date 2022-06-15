@@ -47,6 +47,7 @@ header {
   justify-content: space-between;
   border-bottom: 1rem;
   border-color: var(--secondary);
+  z-index: 1000;
 }
 h1 {
   margin-left: 2rem;
