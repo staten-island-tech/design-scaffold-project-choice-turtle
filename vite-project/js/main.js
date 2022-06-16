@@ -29,7 +29,7 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="Front-Page">
-          <header class="display-name"> 
+          <header class="display-name id="header"> 
             <h1>${section.name}</h1>         
             <section class="buttons">
               <button id="btn1" class="btn" onclick="location.href='#Front-Page'">Front Page</button>
@@ -100,10 +100,42 @@ function sectionCreate(array) {
   });
 }
 sectionCreate(sections);
-gsap.to(".display-img3", {
-  scrollTrigger: {
-    trigger: ".display-img3",
-  },
-  x: -400,
-  rotation: 360,
+
+document.getElementById("btn6").addEventListener("click", function () {
+  if (document.body.classList.contains("light")) {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  } else {
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
+  }
 });
+
+gsap.set(".display-img3", { x: 1000 });
+gsap.set(".Eiji-Tsuburaya", { autoAlpha: 0 });
+gsap.timeline().from("body", { duration: 1.5, opacity: 0 });
+
+const anim1 = gsap.to(".display-img3", {
+  x: 0,
+  duration: 0.75,
+});
+ScrollTrigger.create({
+  trigger: ".Eiji-Tsuburaya",
+  animation: anim1,
+  start: "center top",
+  end: "+=400px",
+  toggleClass: "active",
+  scrub: 1,
+});
+
+// const anim2 = gsap.timeline().from(".Eiji-Tsuburaya", {
+//   autoAlpha: 100,
+// });
+// ScrollTrigger.create({
+//   trigger: ".Front-Page",
+//   animation: anim2,
+//   start: "center top",
+//   end: "+=1200px",
+//   toggleClass: "active",
+//   scrub: 1,
+// });
