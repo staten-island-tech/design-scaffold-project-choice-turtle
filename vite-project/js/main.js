@@ -29,7 +29,7 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="Front-Page">
-          <header class="display-name id="header"> 
+          <header class="display-name" id="header"> 
             <h1>${section.name}</h1>         
             <section class="buttons">
               <button id="btn1" class="btn" onclick="location.href='#Front-Page'">Front Page</button>
@@ -47,7 +47,7 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="section-cards">
-          <h2 class="display-name  ">${section.name}</h2>
+          <h2 class="display-name">${section.name}</h2>
           <div class="each-card2">
             <img class="display-img1" src="${section.pic1}" alt="${section.alt1}"/>
             <p class="p1">something</p>
@@ -60,7 +60,7 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="section-cards">
-          <h2 class="display-name  ">${section.name}</h2>
+          <h2 class="display-name">${section.name}</h2>
           <div class="each-card3">
             <p class="p2">something</p>
             <img class="display-img3" src="${section.pic1}" alt="${section.alt1}"/>
@@ -72,7 +72,7 @@ function sectionCreate(array) {
         "afterbegin",
         `
         <section class="section-cards">
-          <h2 class="display-name  ">${section.name}</h2>
+          <h2 class="display-name">${section.name}</h2>
           <div class="each-card4">
             <img class="display-img4" src="${section.pic1}" alt="${section.alt1}"/>
             <p class=" p3">something</p>
@@ -112,7 +112,7 @@ document.getElementById("btn6").addEventListener("click", function () {
 });
 
 gsap.set(".display-img3", { x: 1000 });
-gsap.set(".Eiji-Tsuburaya", { autoAlpha: 0 });
+
 gsap.timeline().from("body", { duration: 1.5, opacity: 0 });
 
 const anim1 = gsap.to(".display-img3", {

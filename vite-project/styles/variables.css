@@ -41,7 +41,7 @@ header {
   position: fixed;
   background-color: var(--primary);
   width: 100%;
-  height: 7%;
+  height: 7rem;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -87,7 +87,7 @@ p {
 }
 
 .Eiji-Tsuburaya {
-  margin-top: 7%;
+  margin-top: 7rem;
   background-image: url("https://res.cloudinary.com/turtlerules/image/upload/v1655088888/Ultraman%20Photos/ultraman-rise_yjvvca.gif");
   /* Bgimage should fade after the beginning animation ~3secs*/
   height: 100%;
@@ -118,7 +118,7 @@ p {
   height: 60rem;
 }
 .Iconic-Series {
-  margin-top: 7%;
+  margin-top: 7rem;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ p {
   /* want this image to slide from the left to the right */
 }
 .Hideaki-Anno {
-  margin-top: 7%;
+  margin-top: 7rem;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ p {
   height: 56.25rem;
 }
 .Latest-Projects {
-  margin-top: 7%;
+  margin-top: 7rem;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -207,3 +207,29 @@ p {
   height: 66.1rem;
   align-self: flex-end;
 }
+
+.h2:hover{
+
+}
+/* @media screen and (max-width: 85rem) {
+  img {
+    height: 58vh;
+    width: 34vw;
+  }
+  .each-card {
+    width: 36vw;
+  }
+  .btn {
+    font-size: 2.5rem;
+    margin-left: 4rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+} */
