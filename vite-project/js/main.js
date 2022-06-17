@@ -50,7 +50,7 @@ function sectionCreate(array) {
           <h2 class="display-name">${section.name}</h2>
           <div class="each-card2">
             <img class="display-img1" src="${section.pic1}" alt="${section.alt1}"/>
-            <p class="p1">something</p>
+            <p class="p1">${section.paragraph}</p>
             <img class="display-img2" src="${section.pic2}" alt="${section.alt2}"/>
           </div>
         </section>`
@@ -62,7 +62,7 @@ function sectionCreate(array) {
         <section class="section-cards">
           <h2 class="display-name">${section.name}</h2>
           <div class="each-card3">
-            <p class="p2">something</p>
+            <p class="p2">${section.paragraph}</p>
             <img class="display-img3" src="${section.pic1}" alt="${section.alt1}"/>
           </div>
         </section>`
@@ -75,7 +75,7 @@ function sectionCreate(array) {
           <h2 class="display-name">${section.name}</h2>
           <div class="each-card4">
             <img class="display-img4" src="${section.pic1}" alt="${section.alt1}"/>
-            <p class=" p3">something</p>
+            <p class=" p3">${section.paragraph}</p>
             <img class="display-img5" src="${section.pic2}" alt="${section.alt2}"/>
           </div>
         </section>`
@@ -92,7 +92,7 @@ function sectionCreate(array) {
         <img class="display-img7" src="${section.pic2}" alt="${section.alt2}"/>  
         <img class="display-img8" src="${section.pic1}" alt="${section.alt1}"/>
         </div>  
-        <p class="p4">something</p>
+        <p class="p4">${section.paragraph}</p>
         </div>
         </section>`
       );
@@ -128,14 +128,15 @@ ScrollTrigger.create({
   scrub: 1,
 });
 
-// const anim2 = gsap.timeline().from(".Eiji-Tsuburaya", {
-//   autoAlpha: 100,
-// });
-// ScrollTrigger.create({
-//   trigger: ".Front-Page",
-//   animation: anim2,
-//   start: "center top",
-//   end: "+=1200px",
-//   toggleClass: "active",
-//   scrub: 1,
-// });
+const anim2 = gsap.to(".Eiji-Tsuburaya", {
+  rotation: 360,
+  duration: 4,
+});
+ScrollTrigger.create({
+  trigger: ".Front-Page",
+  animation: anim2,
+  start: "top top",
+  end: "+=800px",
+  toggleClass: "active",
+  scrub: 1,
+});

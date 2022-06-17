@@ -57,6 +57,7 @@ h1 {
   padding: 1rem;
   background-color: var(--primary);
   border-color: var(--secondary);
+  text-align: center;
 }
 h2 {
   text-align: center;
@@ -70,12 +71,14 @@ h2 {
 p {
   background-color: var(--primary);
   font-size: 2rem;
+  padding: 2.5rem;
+  margin: 2rem;
   color: var(--secondary);
 }
-
 .buttons {
   background-color: var(--primary);
-  height: 7%;
+  height: 7rem;
+  justify-content: center;
 }
 .btn {
   font-size: 2rem;
@@ -85,7 +88,6 @@ p {
   padding: 2rem;
   border-color: var(--secondary);
 }
-
 .Eiji-Tsuburaya {
   margin-top: 7rem;
   background-image: url("https://res.cloudinary.com/turtlerules/image/upload/v1655088888/Ultraman%20Photos/ultraman-rise_yjvvca.gif");
@@ -105,17 +107,20 @@ p {
 }
 
 .display-img1 {
-  width: 37.1rem;
-  height: 96.2rem;
+  max-width: 100%;
+  height: auto;
+  align-self: center;
 }
 .p1 {
-  width: 50%;
-  height: 90rem;
+  width: 50rem;
+  height: 70rem;
+  align-self: center;
 }
 
 .display-img2 {
-  width: 48rem;
-  height: 60rem;
+  max-width: 100%;
+  max-height: 60rem;
+  align-self: center;
 }
 .Iconic-Series {
   margin-top: 7rem;
@@ -130,19 +135,18 @@ p {
   justify-content: right;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .p2 {
   margin-right: 5rem;
-  width: 60%;
+  width: 60rem;
   text-align: center;
 }
 .display-img3 {
-  width: 48rem;
-  height: 72.1rem;
+  max-width: 100%;
+  height: auto;
   margin-left: 5rem;
   margin-right: 5rem;
-  /* want this image to slide from the left to the right */
 }
 .Hideaki-Anno {
   margin-top: 7rem;
@@ -160,17 +164,16 @@ p {
   flex-wrap: wrap;
 }
 .p3 {
-  width: 60%;
+  width: 60rem;
 }
 .display-img4 {
-  width: 50rem;
-  height: 75rem;
+  max-width: 100%;
+  height: auto;
 }
-
 .display-img5 {
   margin-top: 5rem;
-  width: 100rem;
-  height: 56.25rem;
+  max-width: 100%;
+  height: auto;
 }
 .Latest-Projects {
   margin-top: 7rem;
@@ -191,45 +194,26 @@ p {
   width: 100%;
 }
 .display-img6 {
-  width: 46.7rem;
-  height: 66.1rem;
+  max-width: 100%;
+  height: auto;
   align-self: flex-end;
 }
-
 .display-img7 {
-  width: 80rem;
-  height: 113.1rem;
+  max-width: 100%;
+  height: auto;
   align-self: flex-start;
 }
-
 .display-img8 {
-  width: 46.7rem;
-  height: 66.1rem;
+  max-width: 100%;
+  height: auto;
   align-self: flex-end;
 }
-
-.h2:hover{
-
+img{
+  transform: scale(1);
+  transition: all 0.2s;
 }
-/* @media screen and (max-width: 85rem) {
-  img {
-    height: 58vh;
-    width: 34vw;
-  }
-  .each-card {
-    width: 36vw;
-  }
-  .btn {
-    font-size: 2.5rem;
-    margin-left: 4rem;
-  }
-  h1 {
-    font-size: 5rem;
-  }
-  h2 {
-    font-size: 3.5rem;
-  }
-  h3 {
-    font-size: 3rem;
-  }
-} */
+img:hover{
+  transform: scale(1.05);
+  transition: all 0.2s;
+  z-index: 1;
+}
